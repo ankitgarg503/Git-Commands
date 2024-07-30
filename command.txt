@@ -16,3 +16,13 @@ git add . // for adding all the changes in the file and ready for commit
 git commit -m " Autheication done"
 
 git push origin main // for adding new file but first run git add.
+
+git remote -v // in which remote repo you want to push your code
+
+git remote add origin "link" // for set up specific repo for pushing files
+
+git branch -M main // for rename the master branch to main
+
+git push origin main // for pushing your project into some repo
+
+
