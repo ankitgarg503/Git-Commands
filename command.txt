@@ -1,0 +1,18 @@
+git --version // For checking git insstalled or not
+
+git config --global user.name "" // for adding our account details
+git config --global user.email "" // for set up email
+
+git config --list // for checking details of user
+
+git clone "HTTPS PAth" // for cloning someone else project in our system
+
+git -a // for hidden files
+
+git init // for initalling git with our project
+
+git add . // for adding all the changes in the file and ready for commit
+
+git commit -m " Autheication done"
+
+git push origin main // for adding new file but first run git add.
