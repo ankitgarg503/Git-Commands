@@ -25,4 +25,33 @@ git branch -M main // for rename the master branch to main
 
 git push origin main // for pushing your project also for new changes into some repo
 
+git push -u origin main // for upstream and now you can use only git push
+
+git checkout -b feauture // for cretaing the new branch 
+
+git checkout man // for returning in main branch
+
+git branch -d test // for deleting test branch
+
+git push --set-upstream origin feauture // for set upstream now if you push git push thn new branch will create
+
+git diff main // for comaring 2 branches
+
+git pull origin mian // for downloading all changes happen in git hub
+
+git merge feauture // for merging 2 branch code but some times conflict arise due to same line chnage in both branch
+
+git reset app.js // for rollback change one stage
+
+git reset HEAD~1 // for one stage back N-1
+
+git log // fo all information of coomit and changes
+
+git reset hashCode // for returning back to nth change 
+
+git reset --hard hashCode // for returning back to nth change  forcefully
+
+fork // for create a copy of another repo code in our system and we can contribute in it
+
+
 
